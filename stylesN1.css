@@ -1,0 +1,139 @@
+
+
+#header{
+    background-color: #2D4059;
+    padding: 20px;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+#header div{
+    background-color: #EA5455;
+    color: #EA5455;
+   
+}
+.small-element{
+    flex-grow:2 ;
+}
+
+#larger-element{
+    flex-grow: 7;
+    margin:0 24px
+}
+
+.block-wrapper{
+    background-color: black;
+    padding: 24px;
+    margin: 24px;
+}
+
+#header2{
+    background-color: #F07B3F;
+    padding: 20px;
+}
+
+#header2 div{
+    background-color: #FED460;
+    color:#FED460 ;
+}
+
+#body {
+   
+    display: flex;
+}
+
+#left{
+    background-color: #4E4E6A;
+    flex-grow: 3;
+    margin-right: 24px;
+    padding: 16px;
+}
+
+.left-section-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.left-section-row div{
+    background-color: #1F6CB0;
+    color:#1F6CB0 ;
+    width: 50%;
+    margin:12px 12px;
+}
+
+#left-section-frow{
+    background-color: #70A3C4;
+    color:#70A3C4 ;
+    margin: 12px 12px 6px 12px;
+}
+
+#right{
+    background-color: #F73F52;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+#right div{
+    background-color: #FEEA85;
+    color:#FEEA85 ;
+    margin:12px 12px 4px 12px;
+}
+
+footer div{
+    background-color: #E6AF2E;
+    color:#E6AF2E ;
+}
+
+@media only screen and (max-width:960px){
+    
+    .small-element{
+        flex-grow:1;
+    }
+
+    #body {
+   
+        flex-direction: column;
+    }
+
+    #left{
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+
+    #body.block-wrapper{
+        background-color:#FEFF03;
+    }
+}
+
+@media only screen and (max-width:480px){
+
+    #header{
+        flex-direction: column;
+        margin-bottom: 24px;
+    }
+
+    .small-element{
+        flex-grow: 1;
+        
+    }
+
+    #larger-element{
+        flex-grow: 1;
+        margin: 24px 0;
+    }
+
+    #body, .left-section-row {
+        flex-direction: column;
+    }
+
+    .left-section-row div {
+        width: auto;
+        margin: 12px 12px 6px 12px;
+    }
+}

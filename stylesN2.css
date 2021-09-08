@@ -1,0 +1,172 @@
+
+body{
+    padding: 24px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 36px 0 0 0;
+    position: relative;
+    
+}
+
+#logo{
+    margin-right: 80px;
+    margin-left: 28px;
+
+}
+
+#logo img{
+    height: 80px;
+    width: 80px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+a:hover{
+    text-decoration: underline;
+    font-size: 18px;
+
+}
+
+.menu{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 12px;
+    
+}
+
+nav img{
+    height: 16px;
+    width: 16px;
+    margin-left: 12px;
+}
+
+#van-icon{
+    height: 20px;
+    width: 20px;
+}
+
+#rrss{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    right: 10%;
+}
+
+#rrss img{
+    margin: 20px 0;
+    filter: invert(63%) sepia(7%) saturate(75%) hue-rotate(316deg) brightness(79%) contrast(82%);
+}
+
+#rrss img:hover{
+    filter: invert(25%) sepia(14%) saturate(6%) hue-rotate(337deg) brightness(104%) contrast(87%);
+}
+
+
+
+#hero{
+    background: center / cover no-repeat  url("/assets/img/capçalera.jpg");
+    background-size: 100%;
+    padding:0 24px ;
+    text-align: center;
+    height: 234px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+
+}
+
+#overlay{
+    background-color: rgba(125, 125,125,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px 16px 12px 16px;
+}
+
+h1{
+    font-family: 'Besley', serif;
+    font-weight: 800;
+    color: rgba(255, 0,0,0.4);
+    font-size: 26px;
+    
+    
+}
+
+#photos{
+    background-color:#DCDCDC;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 8px;
+}
+
+#left{
+    background-color: #ECECEC;
+    padding: 4px 4px 0 4px;
+    margin-right: 4px;
+    position: relative;
+}
+
+#right{
+    background-color: #ECECEC;
+    padding: 4px 4px 0 4px;
+    margin-left: 4px;
+}
+
+.image-wrapper{
+    position: relative;
+    overflow: hidden;
+}
+
+#photos img{
+    max-width: 100%;
+}
+
+.fecha{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900 !important;
+    color: white;
+    bottom: 21px;
+    margin: 0%;
+
+}
+
+
+h3 {
+    background-color:#F73F52;
+    position: absolute;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    width: 100%;
+    left: 0%;
+    margin: 0;
+    bottom: -6px;
+    padding: 8px 0 0 8px;
+}
+
+#right p, #left p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding: 0 8px;
+
+}
+
+span a{
+    font-weight: 300;
+    color:#818181 ;
+}
